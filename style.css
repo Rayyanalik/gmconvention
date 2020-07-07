@@ -5,10 +5,10 @@
 
  .bgimg{
 
-    background-image: url('images/homeimage2.jpg');
+    background-image: url('images/homeimage.jpg');
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 660px;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
