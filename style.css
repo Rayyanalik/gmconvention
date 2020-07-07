@@ -7,11 +7,11 @@
 
     background-image: url('images/homeimage.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    width: 50%;
+    width: 100%;
     height: 660px;
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
  
 }
   
