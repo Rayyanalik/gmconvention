@@ -5,7 +5,7 @@
 
  .bgimg{
 
-    background-image: url('images/homeimage.jpg');
+    background-image: url('images/homeimage2.jpg');
     background-size: cover;
     width: 100%;
     height: auto;
@@ -109,7 +109,7 @@
  @media only screen and (min-width: 400px) {
     .bgimg{
 
-    background-image: url('images/homeimage.jpg');
+    background-image: url('images/homeimage2.jpg');
 }
 }
 
