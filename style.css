@@ -5,7 +5,7 @@
 
  .bgimg{
 
-    background-image: url('../images/homeimage2.jpg');
+    background-image: url('images/homeimage2.jpeg');
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
