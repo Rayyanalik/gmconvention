@@ -171,10 +171,10 @@
 /* tablet,landscape,low resolution,laptop and desktop */
 @media (max-width: 990px){
 
-
+  }
 /* smartphones , android phones , landscape iphone */
 @media (min-width: 500px) and (max-width: 650px){
-
+  }
 /* smartphones , potrait iphone , potrait 480x320 phones(Android) */
 @media (min-width: 375px) and (max-width: 850px){
 
