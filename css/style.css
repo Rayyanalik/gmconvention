@@ -11,11 +11,10 @@
  .bgimg{
 
     background-image: url('../images/image13.jpg');
-    width: 1080px; 
-    height: 660px;
+
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
+    
+    
   }
   
  .headerset{
