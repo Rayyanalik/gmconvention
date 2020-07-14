@@ -11,7 +11,7 @@
  .bgimg{
 
     background-image: url('../images/image13.jpg');
-    width: 50%; 
+    width: 50px; 
     height: 200px;
     background-attachment: fixed;
   }
