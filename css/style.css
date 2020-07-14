@@ -160,9 +160,11 @@
 
 
 /* big landscape tablets , laptops and desktops*/
-@media (min-width: 1200px){
+@media (min-width: 1024px){
+    .bgimg{
+        background-repeat: no-repeat;
+    }
 
-}
 
 /* tablet,landscape,low resolution,laptop and desktop */
 @media (max-width: 990px){
