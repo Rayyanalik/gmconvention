@@ -109,15 +109,6 @@
     line-height: 50px;
  }
 
- @media(min-width: 600px){
-
-        .bgimg{
-             background-image: url('../images/image13.jpg');
-            height: 660px;
-            width: 100%;
-        }
- }
-
  @media(max-width: 479px){
 
      .headerset h2{
