@@ -12,7 +12,7 @@
 
     background-image: url('../images/image13.jpg');
     background-size: cover;
-    width: 100%; 
+    width: 50%; 
     height: 200px;
     background-attachment: fixed;
   }
