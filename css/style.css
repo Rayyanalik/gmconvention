@@ -162,8 +162,9 @@
 /* big landscape tablets , laptops and desktops*/
 @media (min-width: 1024px){
     .bgimg{
-        
-        background-size : cover;
+        background-repeat:no-repeat;
+         background-size: 100% 100%;
+       
     }
 
 
