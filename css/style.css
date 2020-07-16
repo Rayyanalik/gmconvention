@@ -11,13 +11,20 @@
  .bgimg{
 
     background-image: url('../images/image13.jpg');
-    height:760px;
-    background-attachment: fixed;
-     align:right;
-    
-    
+    background-attachment: fixed; 
+    float: center;    
   }
-  
+
+  .carousel h2{
+   font-family: 'Anton', sans-serif;
+    font-size: 30px;
+
+  }
+
+  .carousel{
+    padding: 5px 0px 5px;
+  }
+
  .headerset{
     padding-top: 250px;
     box-sizing: border-box; 
@@ -35,7 +42,7 @@
  }
 
  .ourservices{
-    padding: 100px 0px 60px;
+    padding: 60px 0px 5px;
     height: 700px;
  }
 
@@ -75,7 +82,7 @@
  .events{
     height: 1000px;
     width: 100%;
-    padding: 100px 0px 50px;
+    padding: 5px 0px 1px;
  }
 
  .events h1{
@@ -94,7 +101,7 @@
 .aboutus{
     height: 700px;
     width: 100%;
-    padding: 100px 0px 60px;
+    padding: 5px 0px 5px;
  }
 
  .aboutus h1{
@@ -173,8 +180,8 @@
 
   }
 /* smartphones , android phones , landscape iphone */
-@media (min-width: 500px) and (max-width: 650px){
-  }
+@media all and (min-width:991px) {  
+ }
 /* smartphones , potrait iphone , potrait 480x320 phones(Android) */
 @media (min-width: 375px) and (max-width: 850px){
 
@@ -194,4 +201,5 @@
 .Events{
     padding: 200px 0px 100px;
 }
+
 }
