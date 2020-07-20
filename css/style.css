@@ -135,7 +135,9 @@ position:absolute;
     font-weight: bold;
 }
 
-
+.imgsetting:hover{
+    color: #900d0d;
+}
 
  .footer{
     height: 50px;
