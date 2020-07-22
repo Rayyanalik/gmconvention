@@ -1,0 +1,428 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/learnmorestyle.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<body>
+<div class="learnmore">
+ <ul class="list-group list-group-flush">
+  <li class="list-group-item">Learn More</li>
+   <li class="list-group-item">Overview and Policies</li>
+</ul>
+  <div class="container">
+<div class="overview-data">
+		<!-- About venue -->
+		<div class="white-wrapper">
+			<div class="o-section">
+				<div class="row">
+				<div class="overview-col col-lg-6 col-sm-6">
+					<div class="price-plate">
+						<h3>Price per plate</h3>
+						<div class="veg">
+							<div class="type">
+								<div class="name">
+									<span class="fa-stack">
+										<i class="fa fa-square-o fa-stack-2x" style="color: green"></i>
+										<i class="fa fa-circle fa-stack-1x" style="color: green"></i>
+									</span>
+									Veg
+								</div>
+							</div>
+							<div class="amount">
+								
+									<i class="fas fa-rupee-sign"></i> <span class=""><price>300</price></span>
+								
+							</div>
+						</div>
+						<div class="non-veg">
+							<div class="type">
+								<div class="name">
+									<span class="fa-stack n-veg">
+										<i class="fa fa-square-o fa-stack-2x" style="color: red"></i>
+										<i class="fa fa-circle fa-stack-1x" style="color: red"></i>
+									</span>
+									Non Veg
+								</div>
+							</div>
+							<div class="amount">
+								
+									<i class="fas fa-rupee-sign"></i> <span class=""><price>400</price></span>
+								
+							</div>
+						</div>
+						<div class="taxes">
+							Taxes as applicable
+						</div>
+					</div>
+				</div>
+
+				
+
+				
+				<div class="overview-col col-lg-6 col-sm-6">
+					<div class="timing">
+					<h3>Timings &amp; Slots</h3>
+					
+						
+							
+							<div class="slot"><span>
+								
+									Morning
+								 :</span> 8:00 AM to 4:00 PM</div>
+							
+						
+							
+							<div class="slot"><span>
+								Evening :</span> 6:00 PM to 12:00 AM</div>
+							
+						
+					
+					
+					<div class="venue-close">
+						<span>Venue Closing Time : </span>12:00 AM <br>
+						<!-- <span>Music Allowed till - </span> -->
+					</div>
+					</div>
+				</div>
+			
+			
+				
+
+
+				
+				<div class="overview-col col-lg-6 col-sm-6">
+					<div class="change">
+					<h3>Changing rooms</h3>
+					<ul class="tab-data highlights">
+						<li>
+							<span class="fa  fa-check color-green " aria-hidden="true"></span> Changing Rooms AC
+						</li>
+						<li class="no-flex">
+							Number of complimentary changing rooms : <b>1</b>
+						</li>
+					</ul>
+
+				</div>
+				</div>
+			
+					<div class="overview-col flex-col col-lg-6 col-sm-6">
+				
+					<div class="usp">
+						<h3>USP</h3>
+						<ul class="usp-detail">
+							
+								<li>Ideal for entertaining a large number of guests</li>
+							
+							
+								<li>Colossal banquet hall</li>
+							
+							
+								<li>Ample parking space</li>
+							
+							
+								<li>Alcohol is allowed</li>
+							
+						</ul>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="white-wrapper">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="check-ava" id="avail-scroll">
+						<h2 class="heading heading-1" style="font-size: 20px">GM Garden Function Plaza - Party Areas - Hyderabad</h2>
+						<div class="login-availability">
+						
+						</div>
+					</div>
+
+					<table class="table table-striped tab-data" id="PA_table">
+						<thead>
+							<tr>
+								<th>Area Name</th>
+								<th class="text-center">Area Type</th>
+								<th class="text-center pLeft-0">Seating</th>
+								<th class="text-center pLeft-0">Max. Capacity</th>
+								<!-- <th class="text-right pLeft-0">Cluster</th> -->
+								<!-- <th class="text-center">360 View</th> -->
+								
+							</tr>
+						</thead>
+						<tbody>
+							
+								
+
+									<tr class="pa_id_23152">
+										<td>Hall  <div class="full-view"></div></td>
+										<td><center>Hall</center></td>
+										<td class="text-center"><span>800</span></td>
+										<td class="text-center"><span>1200</span></td>
+										<!-- <td class="text-right"><span class="mRgt-10">400</span></td> -->
+										
+									</tr>
+								
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="white-wrapper">
+				<h2 class="heading" style="font-size: 20px">GM Garden Function Plaza - Policies - Hyderabad</h2>
+					<div class="policies">
+						<!-- <div class="col-sm-6"> -->
+							<!-- Decorators -->
+							<div class="row">
+							<div class="policies-col col-lg-4 col-sm-4">
+							
+									<div class="decorators">
+										<h4 class="sub-title">Decor</h4>
+										<ul class="tab-data highlights">
+											
+												<li><span class="fa fa-times color-red" aria-hidden="true"></span>
+												Outside decorators allowed</li>
+											
+
+											<li>
+												<span class="fa  fa-check color-green " aria-hidden="true"></span>
+												Decor provided by the venue
+											</li>
+
+											
+
+											
+										</ul>
+									</div>
+								
+
+								<!-- Panel Decorators -->
+								
+							<!-- </div> -->
+							</div>
+							
+
+							<div class="policies-col col-lg-4 col-sm-4" >
+							<!-- Caterers -->
+								<div class="caterers">
+									<h4 class="sub-title">Food</h4>
+									<ul class="tab-data highlights">
+										<li>
+											<span class="fa  fa-times color-red " aria-hidden="true"></span>
+											Food provided by the venue
+										</li>
+										<li><span class="fa  fa-check color-green " aria-hidden="true"></span> Outside food/caterer allowed at the venue</li>
+										<li>
+											<span class="fa  fa-check color-green " aria-hidden="true"></span> Non-Veg allowed at the venue
+										</li>
+										
+
+										
+									</ul>
+								</div>
+								<!-- Panel caterers -->
+								
+							<!-- </div> -->
+							</div>
+						<!-- Alcohol -->
+
+						<!-- <div class="col-sm-6"> -->
+							<div class="policies-col alcohol col-lg-4 col-sm-4">
+								<h4 class="sub-title">Alcohol</h4>
+								<ul class="tab-data highlights">
+									<li>
+										<span class="fa  fa-check color-green " aria-hidden="true"></span> Alcohol allowed at the venue
+									</li>
+									<li>
+										<span class="fa  fa-check color-green " aria-hidden="true"></span> Outside alcohol allowed at the venue
+									</li>
+									
+								</ul>
+							</div>
+
+
+
+						<!-- Taxes -->
+						
+							<!-- <div class="col-sm-6"> -->
+								<div class="policies-col taxes col-lg-4 col-sm-4">
+									<h4 class="sub-title">Taxes</h4>
+									<ul class="tab-data">
+										
+											<li> Taxes F&amp;B : <b>18.00%</b></li>
+										
+					    				
+									</ul>
+								</div>
+							<!-- </div> -->
+						
+
+
+							<!-- Parking -->
+							<!-- <div class="col-sm-6">-->
+
+							
+								<div class="policies-col parking col-lg-4 col-sm-4">
+									<h4 class="sub-title">Parking</h4>
+									<ul class="tab-data highlights">
+										<li><span class="fa  fa-times color-red " aria-hidden="true"></span> Valet provided by venue</li>
+										
+											<li> Parking space available for 100 vehicles</li>
+										
+									</ul>
+								</div>
+							
+
+							<!-- </div>-->
+							<!-- Cancellation -->
+
+
+							<!-- Rental -->
+							
+								<!-- <div class="col-sm-6"> -->
+					    			<div class="policies-col rental col-lg-4 col-sm-4">
+					    				<h4 class="sub-title">Rental</h4>
+					    				<ul class="tab-data">
+					    					
+					    					
+					    					
+					    						<li> Rental by party area</li>
+					    					
+					    				</ul>
+					    			</div>
+								<!-- </div> -->
+							
+
+						<!-- <div class="col-sm-6"> -->
+							<div class="policies-col cancellation col-lg-4 col-sm-4">
+								<h4 class="sub-title">Cancellation</h4>
+								<ul class="tab-data">
+									
+										<li> Cancellable</li>
+									
+								</ul>
+							</div>
+
+
+							<!-- Advance -->
+					
+						<!-- <div class="col-sm-6"> -->
+			    			<div class="policies-col advance col-lg-4 col-sm-4">
+			    				<h4 class="sub-title">Advance</h4>
+			    				<ul class="tab-data">
+			    					
+			    						<li> <b>30%</b> at the time of booking</li>
+			    					
+			    					
+			    					
+			    				</ul>
+			    			</div>
+						<!-- </div> -->
+					
+
+					
+
+					
+						<div class="policies-col parking col-lg-4 col-sm-4">
+							<h4 class="sub-title">Changing Room</h4>
+							<ul class="tab-data highlights">
+								<li><span class="fa  fa-check color-green " aria-hidden="true"></span>Changing Room A/C</li>
+								<li>
+									No. of complimentary changing rooms: <strong>1</strong>
+								</li>
+							</ul>
+						</div>
+					
+
+					<div class="policies-col highlights high-light col-lg-4 col-sm-4">
+						<h4 class="sub-title">Other Policies</h4>
+						<ul class="tab-data venue-highlights highlights">
+							
+								
+								<li>
+									<span class="fa  fa-times color-red " aria-hidden="true"></span>
+									Music allowed late
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Halls are air conditioned
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Ample parking
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Baarat allowed
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Fire crackers allowed
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Hawan allowed
+								</li>
+								
+							
+								
+								<li>
+									<span class="fa  fa-check color-green " aria-hidden="true"></span>
+									Overnight wedding allowed
+								</li>
+								
+							
+						</ul>
+					</div>
+
+				</div>
+		</div>
+
+	</div>
+</div>				  	
+  </div>
+
+</div>
+<hr>
+ <footer class="footer">
+          <h6 class="text-center">Copyright © 2020, Designed by Rkdevelopers</h6>
+        </footer>
+
+</body>
+</head>
+</html>
+
+
+		

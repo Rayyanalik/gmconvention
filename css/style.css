@@ -19,6 +19,10 @@
   font-size: 3.5em;
 }
 
+#sectioncontactus{
+    padding-top: 2%;
+}
+
 /*.....text Javascript....*/
 
 
@@ -124,11 +128,16 @@ position:absolute;
     font-size: 20px;
  }
 
-.aboutus{
+#sectionaboutus{
     height: 700px;
     width: 100%;
     padding: 5px 0px 5px;
  }
+
+#sectioncontactus{
+
+    padding-top: 0px ;
+}
 
  .aboutus h1{
     font-size: 50px;
