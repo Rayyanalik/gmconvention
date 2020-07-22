@@ -19,8 +19,16 @@
   font-size: 3.5em;
 }
 
-#sectioncontactus{
-    padding-top: 2%;
+#sectionourservices{
+    height: 5%;
+}
+
+#sectionabout{
+    height: 2%;
+}
+
+#sectionaboutus{
+  height: 2%;
 }
 
 /*.....text Javascript....*/
