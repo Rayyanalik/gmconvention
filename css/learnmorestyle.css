@@ -1,11 +1,16 @@
-.learnmore{
-
-	background-color:white;
+.watermark{
+	background-image: url('../images/watermark3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	 
 }
 
 .overview-data{
+
 	padding-top: 2%;
 	padding-bottom: 2%;
+
 }
 
 .price-plate{
@@ -20,5 +25,9 @@ padding-top: 2%;
 	padding-top: 3%;
 }
  .timing{
+ 	padding-top: 3%;
+ }
+
+ .usp{
  	padding-top: 3%;
  }
